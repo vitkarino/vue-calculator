@@ -1,6 +1,5 @@
 <template>
   <div>
-    <HeaderComponent />
     <p>
       Hello, I'm Viktor Kysil - creator of this app! Thank you for trying out my project and don't
       forget to check out my <a href="https://github.com/vitkarino">github</a> to find new projects
@@ -8,17 +7,6 @@
     </p>
   </div>
 </template>
-
-<script>
-import HeaderComponent from '../components/HeaderComponent.vue'
-
-export default {
-  name: 'AboutView',
-  components: {
-    HeaderComponent
-  }
-}
-</script>
 
 <style scoped lang="scss">
 @import '/src/assets/main.scss';

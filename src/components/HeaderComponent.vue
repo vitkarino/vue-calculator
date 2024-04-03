@@ -41,6 +41,10 @@ header {
         filter: brightness(1.3);
         cursor: pointer;
       }
+
+      &.router-link-active {
+        color: $primary;
+      }
     }
   }
 }
